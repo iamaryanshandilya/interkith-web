@@ -1,0 +1,188 @@
+body, html {
+  background-attachment: fixed!important;
+/*background-color:#012533;*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#012533+0,012533+47,012533+49,012533+50,012533+50,012533+51,012533+51,02546d+95 */
+background: rgb(1,37,51); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(1,37,51,1) 0%, rgba(1,37,51,1) 47%, rgba(1,37,51,1) 49%, rgba(1,37,51,1) 50%, rgba(1,37,51,1) 50%, rgba(1,37,51,1) 51%, rgba(1,37,51,1) 51%, rgba(2,84,109,1) 95%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(1,37,51,1) 0%,rgba(1,37,51,1) 47%,rgba(1,37,51,1) 49%,rgba(1,37,51,1) 50%,rgba(1,37,51,1) 50%,rgba(1,37,51,1) 51%,rgba(1,37,51,1) 51%,rgba(2,84,109,1) 95%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(1,37,51,1) 0%,rgba(1,37,51,1) 47%,rgba(1,37,51,1) 49%,rgba(1,37,51,1) 50%,rgba(1,37,51,1) 50%,rgba(1,37,51,1) 51%,rgba(1,37,51,1) 51%,rgba(2,84,109,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#012533', endColorstr='#02546d',GradientType=0 ); /* IE6-9 */
+background-position: center;
+background-repeat: no-repeat;
+margin: 0;
+padding: 0;
+max-width: 100%;
+min-height: 100%;
+overflow-x: hidden;
+height:100%;
+}
+
+hr {
+  margin: 40px 0;
+}
+
+.hr1 {
+  border: 0;
+  border-top: 1px solid #CCC;
+}
+
+.hr2 {
+  border: 0;
+  border-top: 1px dashed #CCC;
+}
+
+.hr3 {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #3E7BFA, transparent);  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.hr4 {
+  border: 0;
+  border-top: 1px dashed #CCC;
+  border-bottom: 2px solid #CCC;
+  height: 3px;
+}
+
+.hr5 {
+  border: 0;
+  border-top: medium double #CCC;
+  height: 1px;
+  overflow: visible;
+  padding: 0;
+  color: #CCC;
+  text-align: center;
+}
+
+.hr5::after {
+  content: "¶";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.4em;
+  padding: 0 0.3em;
+  background: white;
+}
+
+.h-divider {
+  margin: auto;
+  margin-top: 80px;
+  width: 80%;
+  position: relative;
+}
+
+.h-divider .shadow {
+  overflow: hidden;
+  height: 20px;
+}
+
+.h-divider .shadow:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px black;
+}
+
+.h-divider .text {
+  width: 100px;
+  height: 45px;
+  padding: 10px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -33px;
+  left: 50%;
+  margin-left: -60px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #999;
+  background: white;
+}
+
+.h-divider .text i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #aaa;
+  text-align: center;
+  line-height: 50px;
+  font-style: normal;
+  color: #999;
+}
+
+.h-divider .text2 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -35px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #999;
+  background: white;
+}
+
+.h-divider img {
+  position: absolute;
+  margin: 4px;
+  max-width: 60px;
+  border-radius: 100%;
+  border: 1px dashed #aaa;
+}
+
+/* .separator {
+  position: relative;
+  width: 100%;
+}
+
+.hr-left,
+.hr-right {
+  line-height: 1em;
+  position: absolute;
+  outline: 0;
+  top: 0;
+  left: 0;
+  border: 0;
+  color: #000;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+  width: 100%;
+}
+
+.hr-left:before {
+  content: "";
+  background: linear-gradient(90deg,transparent,#fff);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 47%;
+  height: 2px;
+}
+
+.hr-right:before {
+  content: "";
+  background: linear-gradient(90deg,#fff,transparent);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 47%;
+  height: 2px;
+}
+
+.hr-text {
+  position: relative;
+  display: block;
+  padding: 0 .5em;
+  line-height: 1.5em;
+  color: #fff;
+  text-align: center;
+  top: .5em;
+} */

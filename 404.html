@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
+
+    <meta charset="UTF-8" />
+    <title>Interkith - 404 Page Not Found</title>
+
+    <meta name= "description" content = "Interkith lets you share your stories and the moments special to you in your own voice with the people you care about. Find people with similar interests and discover posts by people from all around the world">
+    <meta name= "keywords" content= "communication, social media">
+    <meta name= "robots" content= "INDEX, FOLLOW">
+
+    <link rel="stylesheet" href="assets/css/glitchEffect.css" />
+  </head>
+  <body>
+    <!-- <canvas id="canvas"></canvas> -->
+    <section>
+      <!-- <canvas id="canvas"></canvas> -->
+      <div class="centered-thing">
+        <div class="hero-container">
+          <h2 class="hero glitch layers" data-text="404"><span>404</span></h2>
+          <h3 class="hero glitch layers" data-text="NOT FOUND">
+            <span>NOT FOUND</span>
+          </h3>
+          <h3
+            class="hero2 glitch layers"
+            data-text="WE SEARCHED AS FAR AS WE COULD, BUT COULD NOT FIND THE PAGE YOU WERE LOOKING FOR"
+          >
+            <span
+              >WE SEARCHED AS FAR AS WE COULD, BUT COULD NOT FIND THE PAGE YOU
+              WERE LOOKING FOR</span
+            >
+          </h3>
+            <div class="contact__content">
+              <a href="./index.html" class="button">HOME PAGE</a>
+            </div>
+        </div>
+      </div>
+      
+    </section>
+    <script src="assets/js/matrix.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCbhU84KRotYkH6snKlgYTH0VUM8COvKHU",
+        authDomain: "interkith-website.firebaseapp.com",
+        projectId: "interkith-website",
+        storageBucket: "interkith-website.appspot.com",
+        messagingSenderId: "721195956717",
+        appId: "1:721195956717:web:cc617538dd3bcf35534fe4",
+        measurementId: "G-QEP2WXSQKT"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
